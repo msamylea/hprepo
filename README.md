@@ -24,7 +24,7 @@ Next, click Clone. Enter https://github.com/msamylea/hprepo.git as the repositor
 
 If you want to train the models yourself, you can download the datasets used from the link above, extract them to folders on your local PC, and then add them ass Assets under the Asset tab.  This will make them available via the datafabric folder in HP AI Studio once the workspace is restarted. The training code is located under /share/model_training_scripts/.  If you choose to train the models, you must update the paths for the data locations, experiment name, and run ids, as those may vary per install and/or run.
 
-NOTE: It is not necessary to retrain the models, as this takes a very long time.  Pretrained copies are included in the repository along with code to register the models to MLFlow if desired.
+> **NOTE: It is not necessary to retrain the models, as this takes a very long time.  Pretrained copies are included in the repository along with code to register the models to MLFlow if desired.**
 
 Navigate to the Jupyter Notebooks section (it will be a tab with an X in a white circle beside it).  
 
