@@ -95,11 +95,15 @@ An active AI Studio user license
 #### Forgery Detection Model
 <details>
 <summary>Expand for Forgery Detection Model architecture</summary>
-![forgery_detection onnx](https://github.com/user-attachments/assets/da9675ba-6cd1-43c4-844c-7fe330528e88)
+ 
+![forgery_detection onnx](https://github.com/user-attachments/assets/afdee67e-1552-4227-b18f-b74e856653d6)
+
 </details>
 
 #### Signature Detection Model
 <details>
 <summary>Expand for Signature Detection Model architecture</summary>
-![sig_detect onnx](https://github.com/user-attachments/assets/bebb0332-acd2-4e5c-9caa-f2b355d06468)
-</details>
+ 
+![sig_detect onnx](https://github.com/user-attachments/assets/45df1c29-6001-4aac-9f8d-213c8563b3bb)
+
+ </details>
