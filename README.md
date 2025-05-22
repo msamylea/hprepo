@@ -43,6 +43,14 @@ Write about setting up the working environment for your project.
 ### Repository Structure and Files
 
 ```
+├── model_training_scripts
+│   ├── register_models
+│   │   ├── register_forgery_model.ipynb
+│   │   ├── register_signature_model.ipynb
+│   │   ├── forgery_detect_model.pt
+│   │   ├── signature_detect_model.pt
+│   ├── genuine
+│   │   ├── jpg files
 ├── signature_samples
 │   ├── forged
 │   │   ├── jpg files
