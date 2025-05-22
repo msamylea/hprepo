@@ -4,6 +4,8 @@
 
 Advanced, end-to-end document assessment tools to extract signatures, detect forgery, analyze and view PDF version changes, detect and view suspicious PDF physical modifications (for example, signatures pasted into the document to circumvent forgery detection).
 
+Try hosted version @: [Document Forensics Suite](https://doctools.streamlit.app/)
+
 - Two custom trained models:
   - Signature Detection Model (YoloV11)
   - Forgery Detection Model (Ensemble Model / Torch)
