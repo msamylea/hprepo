@@ -93,9 +93,13 @@ An active AI Studio user license
 
 ### Model Architecture
 #### Forgery Detection Model
-
-![forgery_detect_model pt](https://github.com/user-attachments/assets/8c3d69dc-69a0-4eb1-ae04-a96f805cc392)
+<details>
+<summary>Expand for Forgery Detection Model architecture</summary>
+![forgery_detection onnx](https://github.com/user-attachments/assets/da9675ba-6cd1-43c4-844c-7fe330528e88)
+</details>
 
 #### Signature Detection Model
-
-![signature_detect_model pt](https://github.com/user-attachments/assets/e1be1a1d-e96a-406d-bc5c-73f3ff191020)
+<details>
+<summary>Expand for Signature Detection Model architecture</summary>
+![sig_detect onnx](https://github.com/user-attachments/assets/bebb0332-acd2-4e5c-9caa-f2b355d06468)
+</details>
