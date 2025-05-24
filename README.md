@@ -3,6 +3,8 @@
 ### Document Assessment Toolset
 
 Advanced, end-to-end document assessment tools to extract signatures, detect forgery, analyze and view PDF version changes, detect and view suspicious PDF physical modifications (for example, signatures pasted into the document to circumvent forgery detection).
+> [!TIP]
+> :clipboard:	 Sample documents and images have been included in the GitHub repo for testing purposes.
 
 Try hosted version @: [Document Forensics Suite](https://doctools.streamlit.app/)
 
