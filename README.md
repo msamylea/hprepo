@@ -8,10 +8,7 @@ Try hosted version @: [Document Forensics Suite](https://doctools.streamlit.app/
 
 - Two custom trained models:
   - Signature Detection Model (YoloV11)
-  - Forgery Detection Model (Ensemble Model / Torch)
-
-- Datasets:  
-  - [signature_detection.zip and forgery_detection.zip](https://drive.google.com/drive/folders/1vsTLWSvGFWEsAqAYu8qpZ-VBWBY6AY1z?usp=sharingp:// "signature_detection.zip and forgery_detection.zip")
+  - Forgery Detection Model (ViT)
 
 
 
