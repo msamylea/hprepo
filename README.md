@@ -107,7 +107,8 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-12-6
 ```
 The dataset for finetuning is here: [aevalone/fd_dataset](https://huggingface.co/datasets/aevalone/fd_dataset)
-(This dataset is customized and modified from a dataset found on Kaggle: Signature matching (Version V1). (n.d.). [Dataset]. Kaggle. https://www.kaggle.com/datasets/mallapraveen/signature-matching/data)
+This dataset is customized and modified from a dataset found on Kaggle: 
+> Signature matching (Version V1). (n.d.). [Dataset]. Kaggle. https://www.kaggle.com/datasets/mallapraveen/signature-matching/data)
 
 Use the script included in model_training_scripts for training.
 The training process utilizes Optuna for hyperparameter optimization and could take multiple days to complete.
@@ -116,8 +117,8 @@ The training process utilizes Optuna for hyperparameter optimization and could t
 
 To train the YOLO model for signature detection, we use the base yolo11n-cls.pt and finetune using the included script in model_training_scripts
 
-The dataset used is the following: Signature detection (unknown V). (n.d.). [Dataset]. Samuel Lima. 
-HuggingFace. https://huggingface.co/datasets/tech4humans/signature-detection
+The dataset used is the following: 
+> Signature detection (unknown V). (n.d.). [Dataset]. Samuel Lima. HuggingFace. https://huggingface.co/datasets/tech4humans/signature-detection
 
 ### Model Architecture
 #### Forgery Detection Model
