@@ -92,6 +92,35 @@ An active AI Studio user license
 │   ├── train_yolo_detect.ipynb
 ├── document_processing.ipynb
 ```
+### Model Training
+> Before training with any of the included scripts, make sure you make note of paths to datasets and models for later use
+
+To train the ViT model for forgery detection, we finetune the base model: [google/vit-base-patch16-224](https://huggingface.co/google/vit-base-patch16-224)
+
+To do this, we must first upgrade the NVIDIA Toolkit 12.6 in the Phoenix WSL build.
+
+Open a terminal in HP AI Studio and use the following:
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
+sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
+wget https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda-repo-ubuntu2204-12-6-local_12.6.0-560.28.03-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu2204-12-6-local_12.6.0-560.28.03-1_amd64.deb
+sudo cp /var/cuda-repo-ubuntu2204-12-6-local/cuda-*-keyring.gpg /usr/share/keyrings/
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-6
+```
+The dataset for finetuning is here: [aevalone/fd_dataset](https://huggingface.co/datasets/aevalone/fd_dataset)
+(This dataset is customized and modified from a dataset found on Kaggle: Signature matching (Version V1). (n.d.). [Dataset]. Kaggle. https://www.kaggle.com/datasets/mallapraveen/signature-matching/data)
+
+Use the script included in model_training_scripts for training.
+The training process utilizes Optuna for hyperparameter optimization and could take multiple days to complete.
+
+---
+
+To train the YOLO model for signature detection, we use the base yolo11n-cls.pt and finetune using the included script in model_training_scripts
+
+The dataset used is the following: Signature detection (unknown V). (n.d.). [Dataset]. Samuel Lima. 
+HuggingFace. https://huggingface.co/datasets/tech4humans/signature-detection
 
 ### Model Architecture
 #### Forgery Detection Model
