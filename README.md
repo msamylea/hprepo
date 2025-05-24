@@ -138,3 +138,6 @@ The dataset used is the following:
 ![sig_detect onnx](https://github.com/user-attachments/assets/45df1c29-6001-4aac-9f8d-213c8563b3bb)
 
  </details>
+
+> [!CAUTION]
+> No model is perfect in predicting genuine vs forged. Even though high levels of accuracy can be reached, do not rely on a model for final analysis of genuine vs forged data.
